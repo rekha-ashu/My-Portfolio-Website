@@ -1,0 +1,126 @@
+ body {
+            font-family: 'Poppins', sans-serif;
+            background: #f8f9fa;
+        }
+
+        /* Navbar */
+
+        .navbar {
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Hero */
+
+        .hero {
+            background: linear-gradient(135deg, #0d6efd, #6610f2);
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .hero img {
+            width: 140px;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        /* Section */
+
+        .section-title {
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        /* Skills */
+
+        .skills {
+            background: white;
+            padding: 60px 0;
+        }
+
+        .skill-box {
+            background: #f1f3f5;
+            padding: 12px;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: .3s;
+            cursor: pointer;
+        }
+
+        .skill-box:hover {
+            background: #0d6efd;
+            color: white;
+            transform: translateY(-3px);
+        }
+
+        /* Services */
+
+        .services {
+            padding: 60px 0;
+        }
+
+        .service-box {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+            transition: .3s;
+        }
+
+        .service-box:hover {
+            transform: translateY(-6px);
+        }
+
+        /* Projects */
+
+        .projects {
+            padding: 60px 0;
+        }
+
+        .card {
+            border: none;
+            border-radius: 10px;
+            transition: .3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .card img {
+            height: 160px;
+            object-fit: cover;
+        }
+
+        /* Contact */
+
+        .contact {
+            background: #0a2540;
+            padding: 60px 0;
+            color: white;
+        }
+
+        /* Footer */
+
+        .footer {
+            background: #06152b;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .btn-primary:hover {
+            transform: scale(1.05);
+        }
